@@ -16,3 +16,8 @@ elif [[ $a == $b || $b == $c || $c == $a ]];then
 else
     echo "SCALENE"
 fi
+
+# Note:
+# By using read keyword we can read dynamic data from the end user.
+#  read -p : Just to display prompt message
+#  read -s : It hides input on screen which is provided by end user.
